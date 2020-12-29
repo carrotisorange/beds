@@ -10,6 +10,9 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link href="{{ asset('/assets/img/favicon.ico') }}" rel="icon">
+    <link href="{{ asset('/assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+
     @section('social-meta')
         <meta property="og:title" content="{{ get_option('site_title') }}">
         <meta property="og:description" content="{{ get_option('meta_description') }}">
@@ -65,31 +68,45 @@
 <div class="header-nav-top">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 col-sm-12 ">
+            <div class="col-md-6 col-sm-12 ">
                 <div class="topContactInfo">
                     <ul class="nav nav-pills">
-                        @if(get_option('site_phone_number'))
+                        <li>
+                            <a href="callto://+ 074-4470319">
+                                <i class="fa fa-phone"></i>
+                                074-4470319
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto://+ customercare@thepropertymanager.online">
+                                <i class="fa fa-envelope"></i>
+                                customercare@thepropertymanager.online
+                            </a>
+                        </li>
+
+                        {{-- @if(get_option('site_phone_number'))
                             <li>
                                 <a href="callto://+{{get_option('site_phone_number')}}">
                                     <i class="fa fa-phone"></i>
                                     +{{ get_option('site_phone_number') }}
                                 </a>
                             </li>
-                        @endif
+                        @endif --}}
 
-                        @if(get_option('site_email_address'))
+                     
+                        {{-- @if(get_option('site_email_address'))
                             <li>
                                 <a href="mailto:{{ get_option('site_email_address') }}">
                                     <i class="fa fa-envelope"></i>
                                     {{ get_option('site_email_address') }}
                                 </a>
                             </li>
-                        @endif
+                        @endif --}}
                     </ul>
                 </div>
 
             </div>
-            <div class="col-md-8 col-sm-12">
+            {{-- <div class="col-md-8 col-sm-12">
                 @if(Auth::check())
 
                     <div class="topContactInfo">
@@ -126,13 +143,13 @@
                     </form>
                 @endif
 
-            </div>
+            </div> --}}
         </div>
     </div>
 
 </div>
 
-<nav class="navbar navbar-default" role="navigation">
+{{-- <nav class="navbar navbar-default" role="navigation">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -142,15 +159,15 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="{{ route('home') }}">
-                @if(get_option('logo_settings') == 'show_site_name')
-                    {{ get_option('site_name') }}
-                @else
-                    @if(logo_url())
-                        <img src="{{ logo_url() }}">
-                    @else
-                        {{ get_option('site_name') }}
-                    @endif
-                @endif
+                {{-- @if(get_option('logo_settings') == 'show_site_name') --}}
+             
+                {{-- @else
+                    @if(logo_url()) --}}
+                        {{-- <img src="{{ asset('/assets/img/logo.png') }}"> --}}
+                    {{-- @else --}}
+                    
+                    {{-- @endif
+                @endif -
 
             </a>
         </div>
@@ -193,4 +210,4 @@
 
         </div><!--/.navbar-collapse -->
     </div>
-</nav>
+</nav> --}}

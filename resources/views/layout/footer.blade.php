@@ -7,8 +7,7 @@
                 <div class="col-sm-4 col-xs-12">
                     <div class="footer-widget">
                         <h4>About Us</h4>
-                        <p>{{ get_option('footer_about_us') }}</p>
-                        <p>{!! get_option('footer_about_us_read_more_text') !!}</p>
+                    <p class="text-justify">We are property managers with about a thousand listings, we were using traditional marketing and many steps of leasing procedures, paper and pen to sign up tenant info sheets, contracts, billing statements and receipts. We monitor transactions through spreadsheets and it takes a day to process a report. At one point, our operations are so wrapped up into administrative work that we are spending less time strengthening our customer relations. We spend so much time looking for documents and less time on satisfying customer requests. We realize that if we want to stay in this business and grow, we need to automate our processes so we can focus on the more important aspects of the business like providing good customer service experience while maintaining efficient operations and that’s how thepropertymanager.online was born.</p>
                     </div>
                 </div>
 
@@ -16,15 +15,15 @@
                     <div class="footer-widget footer-address">
                         <h4>@lang('app.contact_us')</h4>
                         <address>
-                            <strong>{{ get_text_tpl(get_option('footer_company_name')) }}</strong>
+                            <strong>The PMO Co.</strong>
                             @if(get_option('footer_address'))
                                 <br />
                                 <i class="fa fa-map-marker"></i>
-                                {!! get_option('footer_address') !!}
+                                Baguio City, Philippines
                             @endif
                             @if(get_option('site_phone_number'))
                                 <br><i class="fa fa-phone"></i>
-                                <abbr title="Phone">{!! get_option('site_phone_number') !!}</abbr>
+                                <abbr title="Phone">074-4470319</abbr>
                             @endif
                         </address>
 
@@ -32,7 +31,7 @@
                             <address>
                                 <strong>@lang('app.email')</strong>
                                 <br> <i class="fa fa-envelope-o"></i>
-                                <a href="mailto:{{ get_option('site_email_address') }}"> {{ get_option('site_email_address') }} </a>
+                                <a href="mailto:{{ get_option('site_email_address') }}"> customercare@thepropertymanager.online </a>
                             </address>
                         @endif
                     </div>
