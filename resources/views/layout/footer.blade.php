@@ -57,7 +57,7 @@
                             <li><a href="{{ route('contact_us_page') }}">@lang('app.contact_us')</a></li>
                         </ul>
 
-                        <div class="social-icons">
+                        {{-- <div class="social-icons">
                             <ul class="social-ul">
                                 @if(get_option('facebook_url'))
                                     <li><a href="{{ get_option('facebook_url') }}" target="_blank"><i class="fa fa-facebook"></i></a></li>
@@ -81,7 +81,7 @@
 
                             </ul>
                             <div class="clearfix"></div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
 
