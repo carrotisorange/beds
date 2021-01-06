@@ -290,7 +290,7 @@ class OptionsTableSeeder extends Seeder
             55 => array (
                 'id' => 58,
                 'option_key' => 'site_email_address',
-                'option_value' => 'customercare@thepropertymanager.online',
+                'option_value' => 'info@customer.com ',
             ),
             56 => array (
                 'id' => 59,

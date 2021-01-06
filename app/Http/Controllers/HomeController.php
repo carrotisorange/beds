@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\DB;
 class HomeController extends Controller
 {
     public function index(){
-         $limit_premium_ads = get_option('number_of_premium_ads_in_home');
+        $limit_premium_ads = get_option('number_of_premium_ads_in_home');
         $limit_regular_ads = get_option('number_of_free_ads_in_home');
         $limit_urgent_ads = get_option('number_of_urgent_ads_in_home');
 

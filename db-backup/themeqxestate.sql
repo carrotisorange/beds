@@ -49012,7 +49012,7 @@ INSERT INTO `options` (`id`, `option_key`, `option_value`) VALUES
 (55, 'footer_company_name', '[site_name]'),
 (56, 'footer_address', '2/21 Barden Loop  <br /> Cupertino, CA 774636'),
 (57, 'site_phone_number', '(123) 456-7890'),
-(58, 'site_email_address', 'customercare@thepropertymanager.online '),
+(58, 'site_email_address', 'info@customer.com '),
 (59, 'footer_about_us', 'Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.'),
 (60, 'footer_about_us_read_more_text', '<a href=\"#\">View details »</a>'),
 (61, 'google_map_embedded_code', '<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.72357067242!2d90.27902569868164!3d23.780942445486914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka+1000-1200!5e0!3m2!1sen!2sbd!4v1472245590888\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>'),

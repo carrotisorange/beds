@@ -1,5 +1,5 @@
 @extends('layout.main')
-@section('title', 'Blogs | Bedspace')
+@section('title') @if( ! empty($title)) {{ $title }} | @endif @parent @endsection
 
 @section('main')
 
@@ -13,7 +13,7 @@
                     <div class="blog-breadcrumb">
                         <ul class="breadcrumb">
                             <li>
-                                <a href="/thepropertymanager.online/">@lang('app.home')</a>
+                                <a href="{{ route('home') }}">@lang('app.home')</a>
                             </li>
                             <li>
                                 <span>@lang('app.blog')</span>
