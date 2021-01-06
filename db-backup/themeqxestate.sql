@@ -49040,7 +49040,7 @@ INSERT INTO `options` (`id`, `option_key`, `option_value`) VALUES
 (83, 'show_blog_in_header', '1'),
 (84, 'blog_post_amount_in_homepage', '6'),
 (85, 'show_latest_blog_in_homepage', '1'),
-(86, 'currency_sign', 'EUR'),
+(86, 'currency_sign', 'PHP'),
 (87, 'logo', '1474653628axpoj-other-settings-themeqx-classified-2016-09-23-23-57-31.png'),
 (88, 'logo_storage', 'public'),
 (89, 'logo_settings', 'show_site_name'),
