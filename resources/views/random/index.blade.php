@@ -13,7 +13,7 @@
 <body id="top">
 
 <!-- Top Background Image Wrapper -->
-<div class="bgded overlay" style="background-image:url('{{ asset('yeinydd/images/demo/backgrounds/bg.jpeg') }}');"> 
+<div class="bgded overlay" style="background-image:url('{{ asset('yeinydd/images/demo/backgrounds/bg.png') }}');"> 
   <div id="pageintro" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div id="carouselExampleIndicators" data-interval="false" class="carousel slide" data-ride="carousel">
