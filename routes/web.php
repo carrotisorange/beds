@@ -41,7 +41,10 @@ Route::get('password/reset/{token}', ['as' => 'password_reset_url', 'uses' => 'U
 Route::post('password/reset/{token}', [ 'uses' => 'UserController@passwordResetPost']);
 
 
-
+//Routes for personalized content
+Route::get('/thisisreserved/randompic', function(){
+    return view('random.index');
+});
 
 //Auth::routes();
 
